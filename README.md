@@ -1,4 +1,4 @@
-# Jarvis-with-no-crashes
+# Personal assistant with nearly no security flaws
 I really can't promise about advanced features, but i can say that it isn't going to crash if you don't mess up in the directory. And it contains superb security features.
 Any improvement to this will be appreciated.
 Send your build in my Email Inbox. email id:- bakaitsuki0@gmail.com
@@ -17,7 +17,5 @@ Will provide you news
 link:- https://newsapi.org
 # Your Email ID and Password
 To send emails.
-# Some Patience and IQ
-so that you don't rage up at me if it crashes. It's still developing with the name ChronosAI this is just a GitHub build of it.
 
 More features coming soon!
