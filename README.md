@@ -1,7 +1,7 @@
 # Jarvis-with-no-crashes
 I really can't promise about advanced features, but i can say that it isn't going to crash if you don't mess up in the directory. And it contains superb security features.
 Any improvement to this will be appreciated.
-Send your build in my Email Inbox. email id:- sarthaksinha526@gmail.com
+Send your build in my Email Inbox. email id:- bakaitsuki0@gmail.com
 # You don't need any "requirements.txt" file 
 to install modules required, Just run main.py file, Jarvis will automatically do that for you!
 # Please fill your details in mydetails.py
