@@ -1,12 +1,12 @@
 import os
 os.system("start python Jarvis.pyw")
-os.system("title J.A.R.V.I.S.")
+os.system("title Personal Assistant")
 os.system("cls")
 os.system("color 0b")
 def imprint(txt):
     print("BOOT:>> " + txt)
     print("\n")
-imprint("LOADING ALL PREFERENCES")
+imprint("LOADING ALL REQUIRED FILES")
 try:
     import pyttsx3
     imprint("LOADING PREFERENCE 1 SUCCESS!")
