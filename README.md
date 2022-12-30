@@ -7,7 +7,7 @@ to install modules required, Just run main.py file, Jarvis will automatically do
 # Please fill your details in mydetails.py
 you'll need some details listed below:-
 # PushBullet API and PushBullet setted up on your Mobile
-This is a security feature which sends a notification on your mobile whenever someone starts J.A.R.V.I.S (Formerly ChronosAI(not released yet))
+This is a security feature which sends a notification on your mobile whenever someone starts the personal assistant
 link:- https://www.pushbullet.com
 # OpenWeatherMap API
 This will get weather details for you
