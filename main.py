@@ -6,123 +6,123 @@ os.system("color 0b")
 def imprint(txt):
     print("BOOT:>> " + txt)
     print("\n")
-imprint("LOADING ALL REQUIRED FILES")
+imprint("LOADING ALL REQUIRED MODULES")
 try:
     import pyttsx3
-    imprint("LOADING PREFERENCE 1 SUCCESS!")
+    imprint("LOADING MODULE 1 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 1 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALIZING MODULE 1 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install pyttsx3")
     os.system("pip install preferencedependency310.whl")
     import pyttsx3
-    imprint("LOADING PREFERENCE 1 SUCCESS!")
+    imprint("LOADING MODULE 1 SUCCESS!")
 try:
     import speech_recognition as sr
-    imprint("LOADING PREFERENCE 2 SUCCESS!")
+    imprint("LOADING MODULE 2 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 2 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALIZING MODULE 2 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install speechrecognition")
     import speech_recognition as sr
-    imprint("LOADING PREFERENCE 2 SUCCESS!")
+    imprint("LOADING MODULE 2 SUCCESS!")
 try:
     import winsound
-    imprint("LOADING PREFERENCE 3 SUCCESS!")
+    imprint("LOADING MODULE 3 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 3 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE") 
+    imprint("INITIALIZING MODULE 3 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE") 
     os.system("pip install winsound")
     import winsound
-    imprint("LOADING PREFERENCE 3 SUCCESS!")
+    imprint("LOADING MODULE 3 SUCCESS!")
 
 import datetime
-imprint("LOADING PREFERENCE 4 SUCCESS!")
+imprint("LOADING MODULE 4 SUCCESS!")
 import os.path
-imprint("LOADING PREFERENCE 5 SUCCESS!")
+imprint("LOADING MODULE 5 SUCCESS!")
 import webbrowser
-imprint("LOADING PREFERNECE 6 SUCCESS!")
+imprint("LOADING MODULE 6 SUCCESS!")
 try:
     import pywhatkit
-    imprint("LOADING PREFERENCE 7 SUCCESS!")
+    imprint("LOADING MODULE 7 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 7 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALIZING MODULE 7 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install pywhatkit")
     import pywhatkit
-    imprint("LOADING PREFERENCE 7 SUCCESS!")
+    imprint("LOADING MODULE 7 SUCCESS!")
 import time
-imprint("LOADING PREFERENCE 8 SUCCESS!")
+imprint("LOADING MODULE 8 SUCCESS!")
 try:
     import pyautogui
-    imprint("LOADING PREFERENCE 9 SUCCESS!")
+    imprint("LOADING MODULE 9 SUCCESS!")
 except:
-    imprint("INITIALZING PREFERENCE 9 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALZING MODULE 9 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install pyautogui")
     import pyautogui
-    imprint("LOADING PREFERENCE 9 SUCCESS!")
+    imprint("LOADING MODULE 9 SUCCESS!")
 try:
     from selenium import webdriver
-    imprint("LOADING PREFERENCE 10 SUCCESS!")
+    imprint("LOADING MODULE 10 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 10 FAILED!")
+    imprint("INITIALIZING MODULE 10 FAILED!")
     os.system("pip install selenium")
     from selenium import webdriver
-    imprint("LOADING PREFERENCE 10 SUCCESS!")
+    imprint("LOADING MODULE 10 SUCCESS!")
 import random
-imprint("LOADING PREFERENCE 11 SUCCESS!")
+imprint("LOADING MODULE 11 SUCCESS!")
 try:
     import keyboard
-    imprint("LOADING PREFERENCE 12 SUCCESS!")
+    imprint("LOADING MODULE 12 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 12 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALIZING MODULE 12 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install keyboard")
     import keyboard
-    imprint("LOADING PREFERENCE 12 SUCCESS")
+    imprint("LOADING MODULE 12 SUCCESS")
 try:
     import requests
-    imprint("LOADING PREFERENCE 13 SUCCESS!")
+    imprint("LOADING MODULE 13 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 13 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALIZING MODULE 13 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install requests")
     import requests
-    imprint("LOADING PREFERENCE 13 SUCCESS!")
+    imprint("LOADING MODULE 13 SUCCESS!")
 import json
-imprint("LOADING PREFERENCE 14 SUCCESS!")
+imprint("LOADING MODULE 14 SUCCESS!")
 try:
     import bs4
-    imprint("LOADING PREFERENCE 15 SUCCESS!")
+    imprint("LOADING MODULE 15 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 15 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALIZING MODULE 15 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install bs4")
     import bs4
-    imprint("LOADING PREFERENCE 15 SUCCESS!")
+    imprint("LOADING MODULE 15 SUCCESS!")
 from getpass import getpass
-imprint("LOADING PREFERENCE 16 SUCCESS!")
+imprint("LOADING MODULE 16 SUCCESS!")
 try:
     from pushbullet import PushBullet
-    imprint("LOADING PREFERENCE 17 SUCCESS!")
+    imprint("LOADING MODULE 17 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 17 FAILED!")
-    imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
+    imprint("INITIALIZING MODULE 17 FAILED!")
+    imprint("TRYING TO RELOAD MODULE IN VERBOSE MODE")
     os.system("pip install pushbullet.py")
     from pushbullet import PushBullet
-    imprint("LOADING PREFERENCE 17 SUCCESS!")
+    imprint("LOADING MODULE 17 SUCCESS!")
 try:
     from mydetails import gmu
     from mydetails import gmp
     from mydetails import pb
     from mydetails import owm
-    imprint("LOADING PREFERENCE 18 SUCCESS!")
+    imprint("LOADING MODULE 18 SUCCESS!")
 except:
-    imprint("INITIALIZING PREFERENCE 18 FAILED!")
+    imprint("INITIALIZING MODULE 18 FAILED!")
     imprint("TRYING TO RELOAD PREFERENCE IN VERBOSE MODE")
     time.sleep(2)
-    imprint("COULDN'T LOAD PREFERENCE 18! PLEASE REINSTALL PROGRAM OR FIND A FIX!")
+    imprint("COULDN'T LOAD MODULE 18! PLEASE REINSTALL PROGRAM OR FIND A FIX!")
     time.sleep(5)
     exit()
 
@@ -157,7 +157,7 @@ else:
 
 #lists
 sugg = [": Try saying 'Hello'", ": Try saying 'How are you'", ": Try saying 'Who are you'", ": Try saying 'Who is Mark Zuckerburg'", ": Try saying 'Tell me something about Python Language'", ": Try saying 'Who is your boss'"]
-hello = ["Hey Sir!", "Hi, it's really good to hear from you Sir,\n  I hope you and your loved ones are safe and healthy", "Hello Sir, it's good to hear your voice.\n  How can i help"]
+hello = ["Hey!", "Hi, it's really good to hear from you,\n  I hope you and your loved ones are safe and healthy", "Hello, it's really nice to hear your voice.\n  How can i help"]
 hry = ["I'm splendid! Thank you for asking", "I'm fine, you're very kind to ask\n  especially in these tempestuous situations", "Thank you for asking,\n  I'm feeling good\n\n  And if you ever feel like humming along to a tune,\n  just say'Play Music'"]
 uf = ["I'm glad to hear that", "I'm glad you're fine", "I'm glad you're good", "I'm glad you're ok"]
 wau = ["I live here, with you\n  I hope that doesn't mean I have to pay any rent", "So, turn left from the paanwaala\n  and then go straight till you see a Banyan tree\n\n  Just kidding, I live in cloud", "I'm in Internet\n  So technically, I'm alive"]
@@ -673,7 +673,7 @@ if __name__ == '__main__':
             
 
         elif 'can i call you alexa' in query or 'can i call you google assistant' in query or 'can i call you siri' in query:
-            sprint("Wow,\n  that would be an honour, it's a top notch assistant.\n  But on second thought, that could get confusing.\n  We'd better stick with Jarvis")
+            sprint("Wow,\n  that would be an honour, it's a top notch assistant.\n  But on second thought, that could get confusing.\n  We'd better stick with my name")
             
         elif 'what do you want to call me' in query:
             sprint(random.choice(callme))
