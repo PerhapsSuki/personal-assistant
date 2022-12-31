@@ -1,3 +1,9 @@
+# Requirements for this to run perfectly:-
+Windows Operating System
+Python 3.10
+A mobile phone (optional)
+Common sense
+
 # Personal assistant with nearly no security flaws
 I really can't promise about advanced features, but i can say that it isn't going to crash if you don't mess up in the directory. And it contains superb security features.
 Any improvement to this will be appreciated.
